@@ -1,5 +1,9 @@
 {
   "servers": {
+    "irctc": {
+      "command": "node",
+      "args": ["${workspaceFolder}/irctc-mcp/dist/index.js"]
+    },
     "google-calendar": {
       "command": "npx",
       "args": ["-y", "@cocal/google-calendar-mcp"],
